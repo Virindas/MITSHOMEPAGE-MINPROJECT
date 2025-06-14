@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MITS - Micro Information Technology Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #f6f9fc, #dff9fb);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      background: linear-gradient(to right, #3a6186, #89253e);
+      border-radius: 0 0 30px 30px;
+    }
+    .btn-custom {
+      background-color: #ff7675;
+      border: none;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #d63031;
+    }
+    .rounded-shape {
+      background-color: #ffeaa7;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .social-stat {
+      font-size: 1.2rem;
+      background-color: #55efc4;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 15px;
+      color: #2d3436;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      border-radius: 30px 30px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MITS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tutorials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Banner -->
+  <header class="text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to MITS</h1>
+      <p class="lead">Empowering students through practical learning and real-world projects</p>
+      <a href="#" class="btn btn-custom m-2">Start Learning</a>
+      <a href="#" class="btn btn-outline-light m-2">Browse Projects</a>
+    </div>
+  </header>
+
+  <!-- Info Shapes Section -->
+  <section class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="rounded-shape">
+          <h4 class="text-center">Our Mission</h4>
+          <p>To provide high-quality, accessible tech education and projects that connect students with practical experience and global communities.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="rounded-shape">
+          <h4 class="text-center">University Affiliations</h4>
+          <p>Partnered with top institutions globally to bridge academic learning and industry-ready skills. Over 10+ active university programs.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="rounded-shape">
+          <h4 class="text-center">Student Network</h4>
+          <p>Connected with 25,000+ students through training, mentorship, and collaborative project opportunities across disciplines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media Stats -->
+  <section class="bg-light py-4">
+    <div class="container text-center">
+      <h3 class="mb-3">Join Our Global Tech Network</h3>
+      <div class="d-flex justify-content-center flex-wrap">
+        <div class="social-stat">📱 15k+ Instagram Followers</div>
+        <div class="social-stat">👥 10k+ LinkedIn Connections</div>
+        <div class="social-stat">🌐 25k+ Community Members</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2025 Micro Information Technology Services. All rights reserved.</p>
+      <p>Follow us:
+        <a href="#" class="text-white fw-bold me-2">Instagram</a> |
+        <a href="#" class="text-white fw-bold me-2">LinkedIn</a> |
+        <a href="#" class="text-white fw-bold">Twitter</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
